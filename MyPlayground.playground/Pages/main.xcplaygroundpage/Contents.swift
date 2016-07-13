@@ -23,7 +23,9 @@ let b = 32
 ### **(1)** Print "true" if a modulo b is equal to zero.
 */
 
-
+if b % 2 == 0 {
+    print("true")
+}
 
 
 
@@ -33,7 +35,11 @@ let b = 32
 /*: Question 2
 ### **(2)** Print 'true' if y divided by x is greater than three, otherwise print 'false'.
 */
-
+if (Int(x) / y) < 3 {
+    print("true")
+} else {
+    print("false")
+}
 
 
 
@@ -43,7 +49,9 @@ let b = 32
 /*: Question 3
 ### **(3)** Print 'true' if y is greater than x and a divided by b is greater than 9. If there's any need to convert to either an `Int` or a `Double` to satisfy the requirements of a binary operator (you can choose whichever one you want to convert to to satisfy the requirements).
 */
-
+if y < (Int(x) / b) {
+    print("true")
+}
 
 
 
@@ -57,7 +65,7 @@ let b = 32
 
 
 
-
+func isGreater()
 
 
 
